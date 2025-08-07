@@ -12,9 +12,9 @@ This is a simple and fun Drum Kit web app built using **HTML**, **CSS**, and **J
 - Lightweight and responsive design.
 
 
-## 🔗 Live Demo
+##  Live Demo
 
-👉 **[Try it here!](https://abdullahali785.github.io/Drum-Kit/)**
+Check it out live: [**Drum Kit Demo**](https://abdullahali785.github.io/Drum/)
 
 
 ## 🛠️ Technologies Used

@@ -6,8 +6,6 @@ This is a simple and fun Drum Kit web app built using **HTML**, **CSS**, and **J
 ## 🚀 Features
 
 - Interactive UI with drum buttons.
-- Keyboard support for playing drum sounds.
-- Smooth animations and visual feedback when a drum is pressed.
 - Styled using Google Fonts and custom images.
 - Lightweight and responsive design.
 

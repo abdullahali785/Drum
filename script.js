@@ -1,3 +1,5 @@
+// Detects Button Press
+
 var drumNumber = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < drumNumber; i++) {
@@ -5,8 +7,28 @@ for (var i = 0; i < drumNumber; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function () {
         
         var buttonName = this.innerHTML;
+        makeSound(buttonName);
 
-        switch (buttonName) {
+    }
+    )
+}
+
+
+// Detects Keyboard Press
+
+document.addEventListener("keydown", function (event) {
+    
+    makeSound(event.key);
+
+}) 
+
+
+// Makes Sound
+
+function makeSound (key) {
+
+
+        switch (key) {
             case "w":
                 var crash = new Audio("./sounds/crash.mp3");
                 crash.play();
@@ -43,10 +65,6 @@ for (var i = 0; i < drumNumber; i++) {
                 break;
 
             default: console.log();
-
         }
 
-        
-    }
-    )
 }
